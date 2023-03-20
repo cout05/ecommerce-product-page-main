@@ -23,5 +23,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/cout05/ecommerce-product-page-main)
-- Live Site URL: (https://cout05.github.io/ecommerce-product-page-main/)
+- Solution URL: [Solution](https://github.com/cout05/ecommerce-product-page-main)
+- Live Site URL: [Live Site](https://cout05.github.io/ecommerce-product-page-main/)
