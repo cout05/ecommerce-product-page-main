@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <article id="cover">
+      <header>
+        <nav>
+          <img src="images/icon-menu.svg" alt="#" id="menu" />
+          <img src="images/logo.svg" alt="#" />
+          <ul>
+            <li><a href="#" class="link">Collections</a></li>
+            <li><a href="#" class="link">Men</a></li>
+            <li><a href="#" class="link">Women</a></li>
+            <li><a href="#" class="link">About</a></li>
+            <li><a href="#" class="link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <div id="number">0</div>
+          <img src="images/icon-cart.svg" alt="#" id="cart" />
+          <img src="images/image-avatar.png" alt="#" class="avatar" />
+        </div>
+      </header>
+
+      <div id="cart_menu">
+        <p class="text">Cart</p>
+        <hr />
+        <div id="no_order">
+          <p class="description">Your cart is empty.</p>
+        </div>
+        <div id="order">
+          <img
+            src="images/image-product-1-thumbnail.jpg"
+            alt="#"
+            id="ordered_item_pic" />
+          <div class="product">
+            <p class="description">Fall Limited Edition Sneakers</p>
+            <p class="description">
+              $125.00 x <span id="orders"> 0 </span>
+              <span class="total">$<span id="amount"></span>.00</span>
+            </p>
+          </div>
+          <div class="delete_img">
+            <img src="images/icon-delete.svg" alt="#" id="delete" />
+          </div>
+        </div>
+        <button type="submit" id="checkout">Checkout</button>
+      </div>
+
+      <main>
+        <div class="flex">
+          <div class="product_images">
+            <img
+              src="images/image-product-1.jpg"
+              alt="#"
+              id="main_product_img" />
+            <div class="product_image_menu">
+              <img
+                src="images/image-product-1-thumbnail.jpg"
+                alt="#"
+                class="menu_img" />
+              <img
+                src="images/image-product-2-thumbnail.jpg"
+                alt="#"
+                class="menu_img" />
+              <img
+                src="images/image-product-3-thumbnail.jpg"
+                alt="#"
+                class="menu_img" />
+              <img
+                src="images/image-product-4-thumbnail.jpg"
+                alt="#"
+                class="menu_img" />
+            </div>
+          </div>
+
+          <div id="lightbox_container">
+            <img src="images/icon-close.svg" alt="#" id="close_lightbox" />
+            <img
+              src="images/icon-previous.svg"
+              alt="#"
+              id="previous_lightbox" />
+            <img src="images/icon-next.svg" alt="#" id="next_lightbox" />
+            <div class="product_image_wrapper1">
+              <img
+                src="images/image-product-1.jpg"
+                alt="#"
+                id="main_menu_img2" />
+            </div>
+            <div id="product_image_menu2">
+              <img
+                src="images/image-product-1-thumbnail.jpg"
+                alt="#"
+                class="menu_img2" />
+              <img
+                src="images/image-product-2-thumbnail.jpg"
+                alt="#"
+                class="menu_img2" />
+              <img
+                src="images/image-product-3-thumbnail.jpg"
+                alt="#"
+                class="menu_img2" />
+              <img
+                src="images/image-product-4-thumbnail.jpg"
+                alt="#"
+                class="menu_img2" />
+            </div>
+          </div>
+
+          <div class="product_images_mobile">
+            <img src="images/icon-previous.svg" alt="#" id="previous" />
+            <img src="images/icon-next.svg" alt="#" id="next" />
+            <div class="product_image_wrapper">
+              <img
+                src="images/image-product-1.jpg"
+                alt="#"
+                id="menu_img_mobile" />
+            </div>
+          </div>
+
+          <div class="hero">
+            <p class="company_name">Sneaker Company</p>
+            <h1 class="title">Fall Limited Edition Sneakers</h1>
+            <p class="description">
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+            <div class="price">
+              <p class="discounted_price">
+                $125.00 <span class="discount">50%</span>
+              </p>
+              <p class="original_price">$250.00</p>
+            </div>
+            <div class="numofOrder">
+              <div class="buttons">
+                <div class="plusicons">
+                  <img src="images/icon-minus.svg" alt="#" id="minus" />
+                </div>
+                <p id="number_of_order">0</p>
+                <div class="plusicons">
+                  <img src="images/icon-plus.svg" alt="#" id="add" />
+                </div>
+              </div>
+              <button type="submit" id="addtoCart">
+                <img
+                  src="images/icon-cart white.svg"
+                  alt="#"
+                  class="cart_icon" />
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div id="mobile_menu">
+        <img
+          src="images/icon-close.svg"
+          alt="#"
+          class="icon-close"
+          id="close" />
+        <ul>
+          <li><a href="#" class="link2">Collections</a></li>
+          <li><a href="#" class="link2">Men</a></li>
+          <li><a href="#" class="link2">Women</a></li>
+          <li><a href="#" class="link2">About</a></li>
+          <li><a href="#" class="link2">Contact</a></li>
+        </ul>
+      </div>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>
